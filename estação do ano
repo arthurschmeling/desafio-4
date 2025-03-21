@@ -1,0 +1,61 @@
+public class JavaApplication56 {
+
+    public static void main(String[] args) {
+     Scanner ler=new Scanner(System.in);
+     //variaveis//
+     int mes;
+     //dados//
+        System.out.println("insira um numero de 1 a 12");
+        mes=ler.nextInt();
+        //processamneto//
+        switch (mes){
+            case 1:
+                System.out.println("janeiro");
+                System.out.println("verão");
+                break;
+            case 2:
+            System.out.println("fevereiro");
+            System.out.println("verão");
+                break;  
+            case 3:
+              System.out.println("março");
+              System.out.println("outono");
+                break;   
+            case 4 :
+                 System.out.println("abril");
+                 System.out.println("outono");
+                break;   
+            case 5:
+                 System.out.println("maio");
+                 System.out.println("outono");
+                break; 
+            case 6:
+                System.out.println("junho");
+                System.out.println("inverno");
+                break;
+            case 7:
+                System.out.println("julho");
+                 System.out.println("inverno");
+                break;
+            case 8 :
+                System.out.println("agosto");
+                 System.out.println("inverno");
+                break;
+            case 9 :
+                System.out.println("setembro");
+                 System.out.println("primavera");
+                break;
+            case 10 :
+                System.out.println("outubro");
+                System.out.println("primavera");
+                break;
+            case 11 :
+                System.out.println("novembro");
+                System.out.println("primavera");
+                break;
+            case 12 :
+                System.out.println("dezembro");
+                System.out.println("verão");
+                break;
+            case 13 :
+                System.out.println("mês invalido");
