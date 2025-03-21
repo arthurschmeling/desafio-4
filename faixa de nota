@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+
+public class Atividade4 {
+
+   
+    public static void main(String[] args) {
+      Scanner ler= new Scanner(System.in);
+      //variaveis//
+      double nota;
+      //dados//
+        System.out.println("insira a sua nota: ");
+        nota=ler.nextDouble();
+        //processamneto//
+        if(nota>=0 && nota<49){
+            System.out.println("nota Insuficiente");
+        }else if (nota>=49 && nota<=69){
+            System.out.println("nota Regular");  
+        }else if (nota>=69 && nota<=89){
+            System.out.println("nota Boa");
+        }else if (nota>=89 && nota<=100){
+            System.out.println("nota Excelente");
+        }else if (nota>=100){
+            System.out.println("nota invalida!!");
