@@ -1,9 +1,9 @@
-package desafio5;
+package atividade5;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class desafio5 {
+public class atividade5 {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
